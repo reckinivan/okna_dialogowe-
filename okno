@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h2>Mój div</h2>
+    <div id="demo">
+        <h1>
+            Mój div
+        </h1>
+    </div>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-innerHTML</button>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-console.log()</button>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-window.alert()</button>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-document.write()</button>
-<p id="demo"></p>
+<button onclick="document.getElementById('demo').innerHTML='hkkjllhh'">innerHTML</button>
+<button onclick="console.log('Hello')">console.log()</button>
+<button onclick="window.alert('123')">window.alert()</button>
+<button onclick="document.write('1234')">document.write()</button>
 </body>
 </html>
